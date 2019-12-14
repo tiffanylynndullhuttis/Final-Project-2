@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 5%
+	box-sizing: border-box;
+}
+
+body {
+text-align: center;
+}
+
+#scarf, #right-foot, #left-foot {
+	animation: scarf 1s infinite;
+	transform-origin: center;
+}
+
+@keyframes scarf {
+	from{
+	transform: rotateZ(0deg);
+	}
+	to {
+	transform: rotateZ(20deg);
+	}
+}
+
+
